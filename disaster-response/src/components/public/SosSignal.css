@@ -1,0 +1,45 @@
+/* src/components/public/SosSignal.css */
+.sos-signal {
+    background-color: #162447;
+    padding: 30px;
+    border-radius: 10px;
+    color: #e4e4e4;
+    width: 400px;
+    margin: 20px auto;
+  }
+  
+  .sos-signal h3 {
+    color: #e43f5a;
+    margin-bottom: 20px;
+  }
+  
+  .sos-signal textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: #1b1b2f;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #e4e4e4;
+    margin-bottom: 15px;
+  }
+  
+  .sos-signal button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e43f5a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sos-signal button:hover {
+    background-color: #e74c3c;
+  }
+  
+  .sos-signal p {
+    margin-top: 15px;
+  }
+  

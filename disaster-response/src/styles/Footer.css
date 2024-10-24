@@ -1,0 +1,13 @@
+/* frontend/src/styles/Footer.css */
+
+.footer {
+    background-color: #888888;
+    padding: 15px;
+    text-align: center;
+    height: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 50%;
+  }
+  

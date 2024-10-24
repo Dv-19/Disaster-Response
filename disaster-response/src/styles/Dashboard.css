@@ -1,0 +1,60 @@
+/* src/styles/Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .weather-widget,
+  .resource-request-form,
+  .news-feed {
+    flex: 1 1 calc(33% - 40px);
+    min-width: 300px;
+  }
+  
+  .sos-map {
+    margin-top: 20px;
+  }
+  
+  /* Add additional styles as needed */
+  /* Add to src/styles/Dashboard.css */
+
+.sos-button {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .sos-activate-button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sos-activate-button:hover {
+    background-color: darkred;
+  }
+  
+  /* frontend/src/styles/Dashboard.css */
+
+
+/* Example: Centering the loading spinner */
+.distress-signals-map .loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+/* Example: Styling buttons inside popups */
+.distress-signals-map .popup-button {
+  margin-right: 8px;
+}
