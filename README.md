@@ -62,5 +62,5 @@ The **Disaster Response Platform** is a full-stack web application designed to s
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/disaster-response-platform.git
-   cd disaster-response-platform
+   git https://github.com/Dv-19/Disaster-Response.git
+   cd Disaster Response
