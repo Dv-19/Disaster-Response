@@ -8,7 +8,7 @@ The **Disaster Response Platform** is a full-stack web application designed to s
 ## Features
 
 - **User Roles & Authentication**
-  - **Public Users**: Send distress signals, view active incidents, and access resources.
+  - **Public Users**: Send distress signals, and access resources.
   - **Volunteers**: Receive and manage assigned tasks, update task statuses.
   - **Government & NGO**: Report incidents, manage resources, assign tasks to volunteers.
   
@@ -41,15 +41,13 @@ The **Disaster Response Platform** is a full-stack web application designed to s
 - **Node.js & Express.js**: Server-side runtime and framework.
 - **MongoDB & Mongoose**: Database and ODM for data modeling.
 - **Socket.IO**: Real-time communication between server and clients.
-- **Multer**: Handling file uploads.
 - **JWT (jsonwebtoken)**: Authentication using JSON Web Tokens.
-- **Helmet**: Securing HTTP headers.
 - **Cors**: Enabling Cross-Origin Resource Sharing.
 
 - - **Frontend**: React application communicating with the backend via RESTful APIs and Socket.IO for real-time features.
 - **Backend**: Express server handling API requests, managing WebSocket connections, and interacting with MongoDB.
 - **Database**: MongoDB storing user data, incidents, resources, and tasks.
-- **Real-Time Communication**: Socket.IO facilitating real-time updates for distress signals and incident management.
+- **Real-Time Communication**: Socket.IO facilitating real-time updates for distress signals.
 
 ### Prerequisites
 
